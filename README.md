@@ -6,5 +6,5 @@
 · 利用CSS的网格和弹性盒模型属性优化布局，确保在桌面、平板和手机上提供无缝的观看体验。
 # 截图：
 <div align="center">
-  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/youtube2.png alt="注册界面图片" width="300">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/youtube2.png alt="注册界面图片" >
 </div>
