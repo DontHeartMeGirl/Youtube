@@ -1,0 +1,173 @@
+.标题{
+    display: flex;
+    flex-direction:row;
+    height: 55px;
+    justify-content: space-between;
+    
+    position: fixed;
+    left: 0%;
+    right: 0;
+    top: 0;
+    background-color: white;
+
+
+    border-bottom-style: solid;/*设置底部边框样式*/
+    border-bottom-width: 1px;/*设置底部边框宽度*/
+    border-bottom-color: rgb(196, 191, 191);
+
+    z-index: 100;
+}
+
+.左边元素{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*需要是flexbox才能使用align-items*/
+ 
+}
+
+.Youtube的logo{
+    height: 20px;
+}
+
+.汉堡图标{
+    height: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.中间元素{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    align-items: center;/*竖直中间对齐*/
+}
+
+.搜索按钮{
+    width: 66px;
+    height: 40px;
+    background-color: rgb(231, 231, 231);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(223, 221, 221); 
+    border-radius: 5px;
+    margin-left: -1px;
+    margin-right: 10px;
+   
+}
+
+.搜索按钮:hover .搜索文字{
+    opacity: 1;/*.选择器1：hover .选择器2*/
+}
+
+.搜索文字{
+    position: absolute;
+    bottom: -30px;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.搜索按钮的图标{
+    height: 25px;
+    margin-top: 4px;
+    
+}
+
+.语音搜索按钮{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    background-color:rgb(248, 245, 245);
+}
+
+.语音搜索按钮的图标{
+    height: 26px;
+    margin-top: 2.5px;
+}
+
+.搜索{
+    display: flex;
+    flex: 1;
+    height: 34px;
+    padding-left: 10px;
+    border: 1px solid rgb(185, 185, 185);/*  代替
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(185, 185, 185);*/
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow:inset 1px 2px 5px rgba(0, 0, 0, 0.05)
+
+}
+
+.搜索按钮div{
+    position: relative;
+}
+
+
+
+.搜索::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+
+.右边元素{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 24px;
+    flex-shrink: o;
+}
+
+.上传视频图标{
+    width: 25px;
+    height: 25px;
+}
+
+.九方格图标{
+    width: 25px;
+    height: 25px;
+}
+
+.通知图标{
+    width: 25px;
+    height: 25px;
+}
+
+.我的头像{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.通知图标的盒子{
+    position: relative;
+}
+
+.通知消息数{
+    position: absolute;
+    color:aliceblue;
+    background-color: rgb(216, 14, 0);
+    right:-4px;
+    top: -4px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50%;
+    padding: 2px;
+}

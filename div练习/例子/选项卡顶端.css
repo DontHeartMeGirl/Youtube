@@ -1,0 +1,97 @@
+.选项卡顶端{
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    height: 55px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(206, 203, 203);
+    display: flex;
+    align-items: center;
+    display: flex; /* 使用 flex 布局 */
+    justify-content: space-between; /* 使内部元素尽可能分散排列 */
+}
+
+.图片与文字的盒子{
+    display: grid;
+    grid-template-columns: 80px 80px 1fr;
+    align-items: center;
+}
+
+.图片调整{
+    width: 80px;
+}
+
+.顶端图片{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.顶端文字{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.发来一条信息{
+    font-family: Roboto;
+    font-size: 500;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.按钮容器 {
+    display: flex; /* 使用 flex 布局 */
+    justify-content: flex-end; /* 将按钮置于最右侧 */
+    align-items: center; /* 在垂直方向上居中对齐按钮 */
+}
+
+.顶端按钮1{
+    background-color: rgb(60, 170, 243);
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-right: 10px;
+    transition: 0.8s;
+    
+}
+
+.顶端按钮1:hover{
+    color: rgb(60, 170, 243);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.顶端按钮2{
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: rgb(91, 176, 233);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-right: 10px;
+    transition: 0.8s;
+}
+
+.顶端按钮2:hover{
+    color: aliceblue;
+    background-color: rgb(91, 176, 233);
+    cursor: pointer;
+}
+
+.中间语句{
+    font-size: larger;
+}

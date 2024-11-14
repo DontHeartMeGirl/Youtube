@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            fr练习
+        </title>
+    </head>
+
+    <body style="padding-bottom: 500px;>
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+             ">
+         <div style="background-color:rgb(86, 213, 245);">
+                div1
+            </div>
+
+            <div style="background-color: pink;">
+                div2
+                <p> text</p>
+            </div>
+
+        </div>
+
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+            margin-top: 30px; 
+            "><!--值的个数代表列的个数，而数值的大小代表列的宽度-->
+            <div style="background-color:rgb(86, 213, 245);">
+                div1
+            </div>
+
+            <div style="background-color: pink;">
+                div2
+                <p> text</p>
+            </div>
+        </div>
+
+        <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+        margin-top: 30px;
+        ">
+        <div style="background-color:rgb(86, 213, 245);">
+            div1
+        </div>
+        <div style="background-color: pink;">
+            div2
+        </div>
+        <div style="background-color:rgb(86, 213, 245);">
+            div1
+        </div>
+    </div>
+
+    <div style="
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            margin-top: 30px; 
+            column-gap: 20px;
+            row-gap: 40px;
+            
+            ">
+            
+
+            <!--column-gap(列间距)、row-gap（行间距）-->
+            <!--值的个数代表列的个数，而数值的大小代表列的宽度-->
+            <!--有3列，而div有九个，则一行3个铺满后之后自动换行到下一行-->
+            
+            <div style="background-color:rgb(86, 213, 245);
+            height: 150px;">
+                1fr
+            </div>
+
+            <div style="background-color: pink;
+            height: 150px;">
+                1fr
+            </div>
+
+            <div style="background-color:rgb(86, 213, 245);
+            height: 150px;">
+                1fr
+            </div>
+
+            <div style="background-color: pink;
+            height: 150px;">
+                1fr
+            </div>
+
+            <div style="background-color:rgb(86, 213, 245);
+            height: 150px;">
+                1fr
+            </div>
+
+            <div style="background-color: pink;
+            height: 150px;">
+                1fr
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,13 @@
+p{
+    font-family:Roboto,Arial;
+    margin-top: 0%;/*统一边距，然后再单独调整*/
+    margin-bottom: 0%;
+}
+
+body{
+    margin: 0%;
+    padding-top: 85px;
+    padding-left: 95px;
+    height: 3000px;
+    background-color: rgb(245, 243, 243);
+}

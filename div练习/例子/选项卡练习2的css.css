@@ -1,0 +1,107 @@
+p {
+    font-family: Roboto,Arial;
+}            
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 0%;
+}
+
+.视图盒子{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* 注意，之前的代码中写的是100hv, 但应该是 100vh */
+    grid-template-columns: 1fr 1fr 1fr; /*创建三列，每列相同宽度 */
+    gap: 20px;  /* 设置卡片之间的间隙 */
+}
+
+.框框{
+    display: inline-block;
+    width: 400px;
+    height: 700px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(158, 158, 158, 0.205);
+    border-radius: 20px;
+    transition: 0.8s;
+    margin-left: 35px;
+    padding:20px;
+}
+
+.框框:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.65);
+}
+
+.图片{
+    width: 400px;
+    height: 533px;
+    border-radius: 20px;
+}
+
+.图片名字{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.头像以及上线时间 {
+    display: flex;        /* 使用 Flexbox 布局 */
+    align-items: center;  /* 垂直居中对齐子元素 */
+    justify-content: flex-start; /* 从左开始排列 */
+}
+
+.头像的div{
+    display: inline-block;
+}
+
+.头像{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right:3px ;
+}
+
+.共同好友{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.共同好友的div{
+    display: inline-block;
+}
+
+.添加好友{
+    background-color:rgb(41, 114, 248) ;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    font-weight: bolder;
+    margin-left: 8px;
+    margin-top: 8px;
+    transition: 0.8s;
+}
+
+.共同好友,.图片,.添加好友,.头像:hover{
+    cursor: pointer;;
+}
+
+.添加好友:hover{
+    background-color:aliceblue;
+    color:rgb(41, 114, 248) ;
+}
+

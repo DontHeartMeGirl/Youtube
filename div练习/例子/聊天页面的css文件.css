@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.私信页面{
+    border-width: 1px;
+    width: 300px;
+    border-left-style: solid;/*设置底部边框样式*/
+    border-left-width: 1px;/*设置底部边框宽度*/
+    border-left-color: rgb(196, 191, 191);
+    border-right-style: solid;/*设置底部边框样式*/
+    border-right-width: 1px;/*设置底部边框宽度*/
+    border-right-color: rgb(196, 191, 191);
+}
+
+.顶部框{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.私信{
+    font-size: 25px;
+    font-weight: 700;
+    margin:15px 10px ;
+}
+
+.设置{
+    display: flex;
+    align-items: center;
+}

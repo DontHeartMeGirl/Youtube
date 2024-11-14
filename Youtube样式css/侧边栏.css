@@ -1,0 +1,34 @@
+.侧边栏{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    width: 80px;
+    color: black;
+    
+}
+
+.侧边栏-图标{
+    height: 76px;
+    display: flex;
+    justify-content: center; /* 在主轴上居中对齐 */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.侧边栏-图标:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.侧边栏 img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.侧边栏 div{
+    font-family: Roboti,Arial;
+    font-size: 10px;
+}

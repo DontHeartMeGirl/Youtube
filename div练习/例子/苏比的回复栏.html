@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>div练习</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .第一 {
+            display: flex;
+            flex-direction: row; /* 修改为行方向，使子元素水平排列 */
+            align-items: center; /* 子项垂直居中 */
+            padding: 20px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(158, 158, 158, 0.205);
+            border-radius: 20px;
+            width: 800px; /* 适当调整宽度以适应内容 */
+            height: 100px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            transition: 0.8s;
+        }
+
+        .第一:hover{
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .发送框 {
+            border-style: none;
+            margin-left: 20px; /* 增加左边距，使文本框和图片之间有一些距离 */
+            flex: 1; /* 允许文本框占用剩余空间 */
+            width: 300px;
+            height: 60px;
+            font-size: 50px;
+            display: inline-block;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 20px;
+        }
+
+        .黄琪欣 {
+            width: 100px;
+            height: 100px; /* 根据需要设置高度 */
+            border-radius: 50px;/*圆形图片,高和宽的一半*/
+        }
+
+        .黄琪欣:hover{
+            cursor:pointer;
+        }
+
+        .发送{
+            display: inline-block;
+            width: 140px;
+            height: 80px;
+            border-radius: 70px;
+            font-size: 38px;
+            color: aliceblue;
+            background-color: rgb(35, 153, 250);
+            border-style: none;
+            transition: 0.8s;
+            font-weight: bolder;
+            margin-right: 25px;
+            
+        }
+
+        .发送:hover{
+            cursor: pointer;
+            background-color: aliceblue;
+            color:rgb(35, 153, 250);
+
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="第一">
+        <img class="黄琪欣" src="C:\Users\Administrator\Desktop\前端\图片\苏头像.jpg" alt="图片描述">
+        <input class="发送框" type="text" placeholder="What`s happing?">
+        <button class="发送">send</button>
+    </div>
+</body>
+
+</html>

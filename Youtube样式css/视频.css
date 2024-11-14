@@ -1,0 +1,100 @@
+
+.视频网格{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+
+
+@media(max-width:950px){
+    .视频网格{
+        grid-template-columns: 1fr 1fr;
+    }
+}/*当视频窗口尺寸小于950px时，.视频网格属性里的视频单位变成两个,*/
+
+@media(min-width:951px) and (max-width:1249px) {
+    .视频网格{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}/*当视频窗口尺寸大于950px小于1250时，.视频网格属性里的视频单位变成三个,*/
+
+
+@media(min-width:1250px){
+    .视频网格{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}/*当视频窗口尺寸大于1250px时，.视频网格属性里的视频单位变成四个,*/
+
+
+.封面图片{
+    position: relative;
+}
+
+.图片{
+    width: 100%;
+    cursor: pointer;
+}
+
+.视频{
+}
+
+.up主图片{
+    width:100%;
+    border-radius: 50%;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.视频时间{
+    font-family: Roboto,Arial;
+    font-size: 15px;
+    font-weight: 500;
+    background-color:rgba(46, 45, 45, 0.719) ;
+    color: aliceblue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    padding: 3px 6px 3px 6px;/*padding四个方向，上右下左，顺时针。
+    如果只有两个值，那么是竖直方向 水平方向*/
+    border-radius: 15%;
+}
+
+.视频信息{
+    vertical-align: top;
+    margin-left: 10px;
+    
+}
+
+.垂直第二个 {
+    margin-top: 12px;
+     display: grid;
+     grid-template-columns: 40px 1fr;
+
+
+}
+
+.up主div{
+    
+}
+
+.视频标题p{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 10px;
+
+    
+}
+
+.视频作者信息p,.视频统计信息p{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.视频作者信息p{
+    margin-bottom: 4px;
+}            
+
